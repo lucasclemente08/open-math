@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+h2,h3,h5,em{
+    font-family:'Ubuntu', sans-serif;
+    color:#fff;
+    margin-bottom: 3%;
+}
+
+h4{
+    margin-top:1rem;
+    padding: 1rem;
+}
+
+
+#title{
+    background-color:#4967DC;
+    color: #fff;
+}
+/* NAVBAR */
+
+.container-fluid{
+padding:3% 15% ;
+
+
+}
+.navbar-toggler{
+    color: #fff;
+}
+
+.navbar-brand{
+   font-family: 'roboto', sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-left: 2%;
+}
+.nav-item a {
+    font-family: 'roboto', sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+
+
+
+/* HERO */
+.hero{
+    height:90vh;
+    background-color: #4967DC;
+}
+.row{  
+    padding:3% 15%;
+    margin-right: 0;
+    padding: .5rem;
+    text-align: center;
+ 
+}
+
+
+.page-title{
+    font-family: 'roboto',sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
+   margin-top: 5rem;
+    margin-bottom: 3%;
+}
+
+.img-hero img{
+    width:30%;
+    position:absolute;
+    right:20%;
+    margin: 1rem;
+  
+    
+}
+.start-button{
+   background-color: #019267;
+    border: 1px solid;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 3%;
+
+    font-family: 'roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+/* features */
+
+.features-title{
+    font-family: 'roboto', sans-serif;
+    font-size: 3rem;
+
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 3%;
+}
+
+.img-features img{
+    width:45%;
+    margin-bottom: 3%;
+   
+  
+}
+.features h2{
+    color: #000;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: 'roboto', sans-serif;
+}
+.features h2{
+    color: #000;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: 'roboto', sans-serif;
+}
+
+
+#help{
+   background-color:#4967DC ;
+    padding: 3rem;
+    color: #fff;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 5px;
+}
+.button-submit{
+    background-color: #019267;
+    border: 1px solid;
+  
+    border-radius: 5px;
+    margin-top: 3%;
+    font-family: 'roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+/* TEACHER SECTION */
+
+#teacher-contact{
+    background-image: url(/img/background.svg);
+
+    padding: 6rem;
+    color: #fff;
+    margin-top: 3%;
+
+    border-radius: 5px;
+
+ 
+}
+
+   
+.teacher-title{
+background-color: #94a9fc;
+    font-family: 'roboto', sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 3%;
+
+}
+
+.img-teacher img{
+    width:70%;
+
+   margin-left: 15%;
+
+}
+p-teacher{
+    font-family: 'roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 3%;
+
+}
+.img-mathDos img{
+display: none;
+} 
+#footer{
+    background-color: #383838;
+    padding: 3rem;
+
+
+    border-radius: 5px;
+}
+
+
+@media  (max-width:1000px) {
+    .img-hero img{
+    display: none;
+    }
+
+    .img-teacher img{
+    margin-top: 2rem;
+    width:40%;
+  position: relative;
+  right: 30%;
+    }
+    .img-math img{
+        margin-top: 2rem;
+    width:400px;
+
+    }
+}
